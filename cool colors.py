@@ -24,7 +24,7 @@ print("\033[47m Highlighted Gray Text\033[0m")
 # highlighiting on colored
 
 print("\033[31;43m Red text on a Highlighted Yellow background \033[0m")
-
+print()
 
 # another version:
 
@@ -56,4 +56,5 @@ print("\033[37m37+: nothing\033[0m")
 
 
 print()
+
 print("\033[32m-- Code end --\033[0m")
