@@ -4,13 +4,20 @@ print()
 # Source - https://stackoverflow.com/a/72970140
 # Posted by Shane S
 
+print("\033[32mColors:\033[0m")
+print()
+
 print("\033[31mThis is red font.\033[0m")
 print("\033[32mThis is green font.\033[0m")
 print("\033[33mThis is yellow font.\033[0m")
 print("\033[34mThis is blue font.\033[0m")
 print("\033[37mThis is the default font.\033[0m")
 
+print()
+print()
 
+
+print("\033[41mHighlight:\033[0m")
 print()
 
 print("\033[41m Highlighted Red Text\033[0m")
@@ -21,15 +28,17 @@ print("\033[45m Highlighted Magenta Text\033[0m")
 print("\033[46m Highlighted Cyan Text\033[0m")
 print("\033[47m Highlighted Gray Text\033[0m")
 
-# highlighiting on colored
-
 print("\033[31;43m Red text on a Highlighted Yellow background \033[0m")
+print()
 print()
 
 # another version:
 
 # Source - https://stackoverflow.com/a/78017374
 # Posted by Mildly Intelligent
+
+print("\033[01mFormat: (mostly that and some colors)\033[0m")
+print()
 
 print("\033[00m00: nothing\033[0m")
 print("\033[01m01: bold?\033[0m")
@@ -53,8 +62,9 @@ print("\033[36m36: cyan\033[0m")
 print("\033[37m37+: nothing\033[0m")
 
 
-
+print("Just to be honest, if theres any errors then i wont solve,")
+print("because i just found this on the internet and i myself i dont know how it works")
+print("Thanks for looking at this")
 
 print()
-
 print("\033[32m-- Code end --\033[0m")
